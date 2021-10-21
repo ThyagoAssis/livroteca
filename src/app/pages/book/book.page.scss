@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+ion-header{
+
+    ion-thumbnail.logo{
+        margin: 2%;
+        width: 15%;
+        height: 50px;
+        
+        ion-img{            
+            border-radius: 50px;
+            margin: 2%;             
+        }
+        
+    }
+    ion-label{
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    ion-icon{
+        margin: 4%;
+    }
+
+}
+
+ion-content{
+    ion-slide{
+        //margin-top: 10%;
+        margin-right: -100px;
+        //margin-left: -100px;
+        
+        ion-img{
+            width: 50%;
+           // border-radius: 20px; */
+           /*  margin-right: -20%;
+            margin-left: -20%; */
+        }     
+        
+        
+        ion-col{
+            text-align: left;
+            
+            h1{           
+               /*  margin-right: -20%;
+                margin-left: -20%;*/
+                font-size: 16px;
+                font-weight: 800;
+                margin-top: -5px;
+            }
+
+            p{
+                
+                font-size: 12px;
+                color:rgb(177, 175, 171);
+            }
+        }
+       
+    }
+
+    ion-label{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+        margin-left: 5px;
+        margin-bottom: 20px;
+        
+    }
+
+    ion-avatar{
+        --border-radius: 0;
+        height: 200px;
+        width: 100px;
+       
+        
+        img{
+            width: 100px;
+            height: 150px;
+           // border-radius: 20px; */
+           /*  margin-right: -20%;
+            margin-left: -20%; */
+        }        
+    }
+
+ /*    .input-wrapper {
+        display: flex;
+        flex: 1 1 0%;
+        flex-direction: inherit;
+        align-items: inherit;
+        align-self: stretch;
+        text-overflow: ellipsis;
+        overflow: inherit; 
+       
+    } */
+
+    .title{
+        display: flex;
+        word-break: break-word;
+        font-size: 20px;
+        float: left;
+        
+    }
+    .subtitle{
+        word-break: normal;
+        float: right;
+    }
+    
+   
+}

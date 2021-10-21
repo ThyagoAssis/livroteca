@@ -1,0 +1,38 @@
+<ion-tabs>  
+
+  <!-- 
+  <ion-fab  vertical="bottom" horizontal="center"  translucent="false">
+    <ion-fab-button   routerLink="/footer/book">
+      <ion-icon name="home-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab> -->
+
+
+
+<ion-tab-bar mode="ios" slot="bottom" [color]="color">
+  <ion-tab-button tab="home"  >
+    <ion-icon name="bag-outline"></ion-icon>
+  </ion-tab-button>
+
+ 
+    <ion-tab-button tab="book" (click)="mudacor('store')" >
+      <ion-icon name="home-outline"></ion-icon>
+    </ion-tab-button>
+
+ <!--  <ion-tab-button tab="favorites" class="comments" (click)="mudacor(heart)">
+    <ion-icon name="heart-outline"></ion-icon>      
+  </ion-tab-button> -->
+
+  <!-- <div class="division"></div>
+ -->
+ 
+  <ion-tab-button  tab="checkout" class="notifs" (click)="mudacor(cart)">
+    <ion-icon name="cart-outline"></ion-icon>
+  </ion-tab-button>
+
+  <ion-tab-button tab="book">
+    <ion-icon name="person-circle-outline"></ion-icon>
+  </ion-tab-button>
+</ion-tab-bar>
+
+</ion-tabs>

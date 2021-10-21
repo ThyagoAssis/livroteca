@@ -1,0 +1,23 @@
+ion-fab {
+    margin-bottom: env(safe-area-inset-bottom);
+    ion-fab-button {
+        
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+}
+
+.division {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 50px;			
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(213, 206, 213);
+    border-radius: 100%;
+    
+                
+    //fill: #2A4072
+        
+}
